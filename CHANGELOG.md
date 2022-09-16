@@ -1,5 +1,43 @@
 # @kwchang0831/svelte-qwer
 
+## 0.4.0
+
+### Minor Changes
+
+- 232d8c6: !changed: rename user/data folder -> user/blogs folder
+- a84ff38: feat: add partytown for plausible script
+- daf9a52: feat: add katex, mhchem support
+- 57f67af: !updated: change katex syntax for block and inline
+
+  - katex block : ```math block
+  - katex inline : `$...# @kwchang0831/svelte-qwer
+
+### Patch Changes
+
+- bb44ddb: feat: add show/hide tag in xl res
+- 6171e30: updated: katex block render as display mode instead
+
+  - updated: adjust katex related style
+
+- b45afd7: doc: update katex related example
+- 176af94: fix: tippy not show
+- bb44ddb: !config: reorganize QWER.config.js
+
+      + !config: required migration
+
+- d110a37: dpes: upgrade (\* @sveltejs/kit 1.0.0-next.481 ❯ 1.0.0-next.483)
+- bb44ddb: !fixed: typo user/config/QWER.confitg.js -> user/config/QWER.config.js
+
+      + !config: required migration
+
+- 0a7296b: fix: hide tag button in header when not in index page (mobile)
+- 4ec3730: !updated: removed ts-nocheck from site.ts
+- 036869a: deps: upgrade (\*kit 1.0.0-next.480 -> 1.0.0-next.481)
+- 6d3f27d: !updated: add origins and other settings to giscus
+
+      + !breaking: Required to migrate `/usr/config/site.ts`
+      + !breaking: Local dev will no longer loads giscus. Giscus will only load if the window.origin === site.url
+
 ## 0.3.3
 
 ### Patch Changes
